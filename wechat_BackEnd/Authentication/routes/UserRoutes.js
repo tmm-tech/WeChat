@@ -9,11 +9,11 @@ const {
 // create and insert data into the table
 UserRoutes.post('/register', createUser)
     //read for a specific id
-UserRoutes.get('/user/:id', getAUser)
+// UserRoutes.get('/user/:id', getAUser)
     // login a user
-UserRoutes.post('/login', loginUser)
+// UserRoutes.post('/login', loginUser)
     // logout user
-UserRoutes.post('/logout/:email', Logout)
+// UserRoutes.post('/logout/:email', Logout)
 
 
 module.exports = UserRoutes
