@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "fullname": "Tony Mwangi Mugi",
+        "email": "tonymugi4@gmail.com",
+        "profile": "https://firebasestorage.googleapis.com/v0/b/kustoma24-8959e.appspot.com/o/Profile%2Fhoucine-ncib-B4TjXnI0Y2c-unsplash.jpg275c3a27-eefc-425a-aae5-dba321fd9136?alt=media&token=38abd6ed-32cf-42ba-bc12-2e12aab47a61",
+        "status": "offline",
+        "isLoggedIn": false,
+        "password": "$2b$08$m/22gUZsMGY12aIu5dOwoe9eF6CYUNPmS1MqpR.ZecBXkPrT1x1EG"
+    },
+    {
+        "id": 2,
+        "fullname": "Tony Mwangi Mugi",
+        "email": "tonymugi074@gmail.com",
+        "profile": "https://firebasestorage.googleapis.com/v0/b/kustoma24-8959e.appspot.com/o/Profile%2Fjonas-kakaroto-mjRwhvqEC0U-unsplash.jpge40222c3-c67a-4f20-bf4d-4112e89e6f41?alt=media&token=4499f4ba-5e70-4965-9598-f1ca7ea69fc9",
+        "status": "offline",
+        "isLoggedIn": false,
+        "password": "$2b$08$3QPK/.AxRULW.p5WeGDYjuevDjoxNBiHLos2zGjYlw2X2hZmSJ.f."
+    }
+]

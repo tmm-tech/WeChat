@@ -1,19 +1,27 @@
 const UserRoutes = require('express').Router();
 const {
     createUser,
-    getAUser,
-    loginUser,
-    Logout,
+    checkEmailExists,
+    login,
+    updateStatus,
+    logout,
+    getUserDetails,
 } = require('../controllers/UserControllers');
 
 // create and insert data into the table
 UserRoutes.post('/register', createUser)
-    //read for a specific id
-// UserRoutes.get('/user/:id', getAUser)
-    // login a user
-// UserRoutes.post('/login', loginUser)
-    // logout user
-// UserRoutes.post('/logout/:email', Logout)
+    //check email existence
+UserRoutes.get('/check-email/:email', checkEmailExists)
+// Login route
+UserRoutes.post("/login", login);
+
+// Update status route
+UserRoutes.put("/update-status", updateStatus);
+
+// Get user details route
+UserRoutes.get("/:userId", getUserDetails);
+// Logout route
+UserRoutes.post("/logout", logout);
 
 
 module.exports = UserRoutes
